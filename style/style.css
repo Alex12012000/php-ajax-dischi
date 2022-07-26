@@ -1,0 +1,90 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #1e2d3b;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    height: 80px;
+    background-color: #2e3a46;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+}
+
+
+/* select */
+
+.select-bar {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.select-bar select {
+    padding: 5px 0;
+    padding-right: 20px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid #2e3a46;
+    text-align: left;
+    background-color: #1e2d3b;
+    color: white;
+}
+
+/* MAIN */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Cards */
+
+.card {
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #2e3a46;
+    width: calc((100% / 5) - 15px); 
+    text-align: center;
+}
+
+.card h3 {
+    padding: 15px 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+.card span {
+    display: block;
+    margin: 5px 0;
+    color: grey;
+}
